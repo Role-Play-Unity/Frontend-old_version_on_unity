@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83ab67f22322a914ea9b9ec35888fa52, type: 3}
+  m_Name: Build Settings
+  m_EditorClassIdentifier: 
+  Main:
+    WINDOWS: 1
+    LINUX: 0
+    MASTER_SERVER: 0
+    GAME_SERVER: 0
+    GAME_CLIENT: 1
+    SCENE_MASTER_SERVER_PATH:
+    - Assets\Backend\Scene\MasterServer.unity
+    SCENE_GAME_SERVER_PATH:
+    - Assets\Backend\Scene\GameServer.unity
+    SCENE_GAME_CLIENT_PATH:
+    - Assets\Frontend\Scene\Loading.unity
+    - Assets\Frontend\Scene\General Menu.unity
+    - Assets\Frontend\Scene\NewPlayer.unity
+    - Assets\Frontend\Scene\Game.unity
+  Build:
+    BuildOptions: 1
+    NAME_BUILD_MASTER_SERVER: MASTER_SERVER
+    NAME_BUILD_GAME_SERVER: ROOM_SERVER
+    NAME_BUILD_GAME_CLIENT: ROLE_PLAY
+    VERSION_MASTER_SERVER: 0.0.0.000001A
+    VERSION_GAME_SERVER: 0.0.0.000001A
+    VERSION_GAME_CLIENT: 0.0.0.000004A
+    COMPANY_NAME: LIFE IS WOLF
+  Windows:
+    ARCHITECTURE: 0
+    BUILD_MASTER_SERVER_PATH: C:\Project\Role_Play_Unity\Windows\MasterServer\
+    BUILD_GAME_SERVER_PATH: C:\Project\Role_Play_Unity\Windows\GameServer\
+    BUILD_GAME_CLIENT_PATH: G:\Project\Role_Play_Unity\Windows\GameClient\
+  Linux:
+    BUILD_MASTER_SERVER_PATH: \tmp\Role_Play_Unity\Linux\Master\
+    BUILD_GAME_SERVER_PATH: \tmp\Role_Play_Unity\Linux\Game\
+    BUILD_GAME_CLIENT_PATH: \tmp\BUILD\Role_Play_Unity\Linux\Game\

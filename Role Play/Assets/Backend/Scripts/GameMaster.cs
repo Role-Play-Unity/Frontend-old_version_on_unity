@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class GameMaster : MonoBehaviour
 {
-    /* private const string playerIdPrefix = "Player";
+    private const string playerIdPrefix = "Player";
 
     private static Dictionary<string, MasterCharacter> players = new Dictionary<string, MasterCharacter>();
 
@@ -36,5 +36,5 @@ public class GameMaster : MonoBehaviour
          * GUILayout.EndVertical();
          * GUILayout.EndArea();
          */
-    /* } */
+    } 
 }
