@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Unity Showroom/Scenes/Showroom.unity
-    guid: 153cd73c5fa33ba49a935c8920cabf0e
+    path: Assets/Frontend/Scene/Loading.unity
+    guid: 58abf56e351984c4bbb2a958c0a1c3ae
   - enabled: 1
-    path: Assets/Unity Showroom/Scenes/Showroom_Lighting_Theme_Luxury.unity
-    guid: a0e16637660a9434a8c27a19818823dc
+    path: Assets/Frontend/Scene/General Menu.unity
+    guid: 7a60ecf5728594847bb655df98c58732
   - enabled: 1
-    path: Assets/Unity Showroom/Scenes/Showroom_Lighting_Theme_PhotoStudio.unity
-    guid: fe0a3112c0d6e68439af4fdf75141a6f
+    path: Assets/Backend/Scene/RoomStart.unity
+    guid: afd8db049f8a9ab409fd09310df34aa1
   - enabled: 1
-    path: Assets/Unity Showroom/Scenes/Showroom_Lighting_Theme_LightInstallation.unity
-    guid: a5ea2f9a519063b4f99da59c31b46501
+    path: Assets/Frontend/Scene/GameScene/RoomOnline.unity
+    guid: e256c61b1bc404246bd1c7ed3ef4d6c9
   m_configObjects: {}
